@@ -1,491 +1,576 @@
 #nav1{
-   height: 50px;
-   width: 100%;
-   border-radius: 4px;
-   display: flex;
-   background-color: black;
-}
-.box1{
-   height: 50px;
-   width: 50%;
-   
-   align-items: center;
-   display: block;
-   margin: auto; 
-   
-}
-#nav1 img {
-   margin-top: 10px;
-   margin-left: 10px;
-}
-.box2{
     height: 50px;
-    width: 50%;
-   
-}
-#inp1{
-    text-transform: uppercase;
-    align-items: end;
-    height: 35px;
-    width: 100px;
-    background-color: #82b440;
-    color: white;
-    border-radius: 5px;
-    margin-left: 530px;
-    margin-top: 10px;
-}
-#nav2{
-    height: 100px;
     width: 100%;
-    
+    border-radius: 4px;
     display: flex;
     background-color: black;
-}
-.box4{
-    height: 100px;
-    width: 25%;
-    
-
-}
-#nav2 img{
-    margin-left: 70px;
-}
-.box5{
-    height: 100px;
-    width: 25%;
-   
-    background-image: url(./assets/working_time1.png);
-    background-repeat: no-repeat;
-    color: white;
-    background-position-y: center;
-}
-
-p{
-    margin-top: 40px;
-    margin-left: 50px;
-}
-.box6{
-    height: 100px;
-    width: 25%;
-   
-    background-image: url(./assets/working_location1.png);
-    background-repeat: no-repeat;
-    color: white;
-    background-position-y: center;
-
-}
-.box7{
-    height: 100px;
-    width: 25%;
-  
-    background-image: url(./assets/working_phone.png);
-    background-repeat: no-repeat;
-    color: white;
-    background-position-y: center;
-
-}
-#nav3{
-    height: 80px;
-    width: 100%;
-   
-    display: flex;
-}
-.box8{
-    height: 80px;
+ }
+ .box1{
+    height: 50px;
     width: 50%;
+    cursor: pointer;
+    align-items: center;
+    display: block;
+    margin: auto; 
     
+ }
+ #nav1 img {
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .box2{
+     height: 50px;
+     width: 50%;
+    
+ }
+ #inp1{
+     text-transform: uppercase;
+     align-items: end;
+     height: 35px;
+     width: 100px;
+     background-color: #82b440;
+     color: white;
+     border-radius: 5px;
+     margin-left: 530px;
+     margin-top: 10px;
+     cursor: pointer;
+ }
+ #nav2{
+     height: 100px;
+     width: 100%;
+     
+     display: flex;
+     background-color: black;
+ }
+ .box4{
+     height: 100px;
+     width: 25%;
+     cursor: pointer;
+     
+ 
+ }
+ #nav2 img{
+     margin-left: 70px;
+ }
+ .box5{
+     height: 100px;
+     width: 25%;
+    
+     background-image: url(./assets/working_time1.png);
+     background-repeat: no-repeat;
+     color: white;
+     background-position-y: center;
+     cursor: pointer;
+ }
+ 
+ p{
+     margin-top: 40px;
+     margin-left: 50px;
+ }
+ .box6{
+     height: 100px;
+     width: 25%;
+    
+     background-image: url(./assets/working_location1.png);
+     background-repeat: no-repeat;
+     color: white;
+     background-position-y: center;
+     cursor: pointer;
+ 
+ }
+ .box7{
+     height: 100px;
+     width: 25%;
+   
+     background-image: url(./assets/working_phone.png);
+     background-repeat: no-repeat;
+     color: white;
+     background-position-y: center;
+     cursor: pointer;
+ 
+ }
+ #nav3{
+     height: 80px;
+     width: 100%;
+    
+     display: flex;
+ }
+ .box8{
+     height: 80px;
+     width: 50%;
+     
+     cursor: pointer;
+     
+ }
+ 
+ ul,li{
+     display: flex;
+     list-style: none;
+     padding: 10px;
+     padding-left: 30px;
+ }
+ .box9{
+     height: 80px;
+     width: 50%;
+     padding-left: 480px;
+     
+ }
+ .material-symbols-outlined {
+      /* padding-left: 250px; */
+      cursor: pointer;
+      
+   font-variation-settings:
+   'FILL' 0,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 24
+   
+ }
+ #fixed1{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1f71d0;
     cursor: pointer;
     
-}
-
-ul,li{
-    display: flex;
-    list-style: none;
-    padding: 10px;
-    padding-left: 30px;
-}
-.box9{
-    height: 80px;
-    width: 50%;
-    padding-left: 480px;
-    
-}
-.material-symbols-outlined {
-     /* padding-left: 250px; */
+ }
+ #fixed1:hover{
+    background-color: blue;
+ }
+ #fixed2{
+    position: fixed;
+    top: 83%;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #454545;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #eef0f3;
+    background-image: url(/assets/Leaves_leaf_green_natural-512.webp);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    cursor: pointer;
+ }
+ #fixed2:hover{
+    background-color: #82b440;
+ }
+ #fixed3{
+    position: fixed;
+    top: 90%;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #454545;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #eef0f3;
+    background-image: url(/assets/theme.jpeg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    cursor: pointer;
+ }
+ #fixed3:hover{
+    background-color: #ec4949;
+ }
+ #box10{
+     height: 450px;
+     cursor: pointer;
+     width: 100%
      
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-#box10{
-    height: 450px;
-    width: 100%
-}
-h1{
-    color: white;
-    font-size: 59px;
-    /* align-items: center; */
-    margin: auto;
-}
-#box11{
-    height: 400px;
-    width: 100%;
-    display: flex;
-}
-.box12{
-    height: 400px;
-    width: 50%;
-}
-.box13{
-    height: 400px;
-    width: 50%;
+ }
+ h1{
+     color: white;
+     font-size: 59px;
+     /* align-items: center; */
+     margin: auto;
+ }
+ #box11{
+     height: 400px;
+     width: 100%;
+     display: flex;
+ }
+ .box12{
+     height: 400px;
+     width: 50%;
+ }
+ .box13{
+     height: 400px;
+     width: 50%;
+     
+     padding-left: 100px;
+ }
+ .box12 img{
+     height: 150px;
+     padding-top: 120px;
+     cursor: pointer;
+ }
+ #inp2{
+     height: 40px;
+     width: 80px;
+     border: 2px solid blue;
+     background-color: white;
+     color: blue;
+     cursor: pointer;
+ }
+ #box14{
+     height: 450px;
+     width: 100%;
+ 
+ }
+ #box14 img{
+     height: 450px;
+     cursor: pointer;
+     width: 100%;
+ }
+ #box16{
+     height: 600px;
+     width: 20%;
+     margin-left: 400px;
+     margin-top: 50px;
+ }
+ .img1{
+     height: 200px;
+     width: 100%;
+     cursor: pointer;
+ }
+ .img2{
+     height: 200px;
+     width: 100%; 
+     cursor: pointer;
+ }
+ .img3{
+    cursor: pointer;
+     height: 200px;
+     width: 100%
+     
+     
+ }
+ .img4{
+     height: 600px;
+     width: 30%;
+     cursor: pointer;
+     margin-top: 50px;
+   
+ } 
+ #box15{
+     display: flex;
+     height: 650px;
+     gap: 10px;
+ }
+ #box17{
+     height: 450px;
+     width: 100%;
+     display: flex;
+     margin-top: 50px;
+ }
+ #head4{
+     padding-top: 100px;
+     margin-left: 50px;
+     font-size: 40px;
+ }
+ .box18{
+     height: 450px;
+     width: 50%;
     
-    padding-left: 100px;
-}
-.box12 img{
-    height: 150px;
-    padding-top: 120px;
-}
-#inp2{
-    height: 40px;
-    width: 80px;
-    border: 2px solid blue;
-    background-color: white;
-    color: blue;
-}
-#box14{
-    height: 450px;
-    width: 100%;
+ }
+ .box19{
+     height: 450px;
+     width: 50%;
+     
+ }
+ .inp3{
+     height: 40px;
+     width: 80px;
+     border: 2px solid blue;
+     background-color: white;
+     color: blue;
+     cursor: pointer;
+     margin-left: 50px;
+ }
+ .box19 img{
+     height: 450px;
+     cursor: pointer;
+ }
+ #box20{
+     height: 450px;
+     width: 100%;
+    
+     display: flex;
+ }
+ .box21{
+     height: 450px;
+     width: 50%;
+     cursor: pointer;
+     
+     
+ }
+ .cart1{
+     height: 150px;
+     width: 300px;
+     border: 2px solid black;
+     background-image: url(./assets/mt_diagnose_set1_icon1.png);
+     background-repeat: no-repeat;
+     background-position: center;
 
-}
-#box14 img{
-    height: 450px;
-    width: 100%;
-}
-#box16{
-    height: 600px;
-    width: 20%;
-    margin-left: 400px;
-    margin-top: 50px;
-}
-.img1{
-    height: 200px;
-    width: 100%;
-}
-.img2{
-    height: 200px;
-    width: 100%; 
-}
-.img3{
-    height: 200px;
-    width: 100%
-}
-.img4{
-    height: 600px;
-    width: 30%;
-    margin-top: 50px;
-  
-} 
-#box15{
-    display: flex;
-    height: 650px;
-    gap: 10px;
-}
-#box17{
-    height: 450px;
-    width: 100%;
-    display: flex;
-    margin-top: 50px;
-}
-#head4{
-    padding-top: 100px;
-    margin-left: 50px;
-    font-size: 40px;
-}
-.box18{
-    height: 450px;
-    width: 50%;
-   
-}
-.box19{
-    height: 450px;
-    width: 50%;
+ }
+ .cart2{
+     height: 150px;
+     width: 300px;
+     border: 2px solid black;
+     background-image: url(./assets/mt_diagnose_set1_icon2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .box22{
+     height: 450px;
+     width: 50%;
+     
+     display: flex; 
+     padding-left: 20px;
+     padding-top: 150px;
+     gap: 20px; 
+ }
+  .p1{
+     font-size: 20px;
+     padding-top: 65px;
+     padding-left: 80px;
+ }
+ .p2{
+     font-size: 20px;
+     padding-top: 65px;
+     padding-left: 90px;
+ }
+ .head1{
+     height: 30px;
+     width: 300px;
+     border: 2px solid black;
+     text-align: center;
+     
+ }
+ .head2{
+     height: 30px;
+     width: 300px;
+     border: 2px solid black;
+     text-align: center;
+     
+ } 
+ #box23{
+     height: 450px;
+     width: 100%;
+     
+     display: flex;
+     /* margin: auto; */
+     gap: 20px;
+     padding-left:250px;
+     padding-top: 90px;
+ }
+ .cart3{
+     height: 300px;
+     width: 250px;
     
-}
-.inp3{
-    height: 40px;
-    width: 80px;
-    border: 2px solid blue;
-    background-color: white;
-    color: blue;
-    margin-left: 50px;
-}
-.box19 img{
-    height: 450px;
-}
-#box20{
-    height: 450px;
-    width: 100%;
-   
-    display: flex;
-}
-.box21{
-    height: 450px;
-    width: 50%;
+     background-color: #eef0f3;;
+ }
+ .cart4{
+     height: 300px;
+     width: 250px;
+    
+     background-color: #eef0f3;
+    
+ }
+ .cart5{
+     height: 300px;
+     width: 250px;
+    
+     background-color: #eef0f3;
+ }
+ .c1{
+     height: 15%;
+     cursor: pointer;
+    
+ }
+ .c2{
+     height: 20%;
+     cursor: pointer;
+     
+ }
+ .c3{
+     height: 50%;
+     cursor: pointer;
+    
+     
+ }
+ .c4{
+     height: 15%;
+    cursor: pointer;
+     padding-left: 20px;
+ }
+ .inp4{
+     height: 35px;
+     width: 80%;
+     border-radius: 15px;
+     background-color: #1f71d0;
+     color: white;
+ }
+ .cart3:hover{
+     border-top: 2px;
+     border-left: 0px;
+     border-bottom: 0px;
+     border-right: 0px;
+     border-color: black;
+     border-style: solid;
+ }
+ .cart4:hover{
+     border-top: 2px;
+     border-left: 0px;
+     border-bottom: 0px;
+     border-right: 0px;
+     border-color: black;
+     border-style: solid;
+ }
+ .cart5:hover{
+     border-top: 2px;
+     border-left: 0px;
+     border-bottom: 0px;
+     border-right: 0px;
+     border-color: black;
+     border-style: solid;
+ }
+ #box24{
+     height: 250px;
+     width: 60%;
+     
+     display: flex;
+     margin: auto;
+ }
+ .box25{
+     height: 250px;
+     width: 50%;
+    
+ }
+ .box26{
+     height: 250px;
+     width: 50%;
+     cursor: pointer;
+    
+ }
+ #box27{
+     height: 250px;
+     width: 60%;
+      padding-top: 30px;
+     display: flex;
+     margin: auto;
+     cursor: pointer;
+ }
+ .box28{
+     height: 250px;
+     width: 50%;
+    
+ }
+ .box29{
+     height: 250px;
+     width: 50%;
     
     
-}
-.cart1{
-    height: 150px;
-    width: 300px;
-    border: 2px solid black;
-    background-image: url(./assets/mt_diagnose_set1_icon1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.cart2{
-    height: 150px;
-    width: 300px;
-    border: 2px solid black;
-    background-image: url(./assets/mt_diagnose_set1_icon2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.box22{
-    height: 450px;
-    width: 50%;
+ }
+ #box30{
+     height: 200px;
+     width: 60%;
     
-    display: flex; 
-    padding-left: 20px;
-    padding-top: 150px;
-    gap: 20px; 
-}
- .p1{
-    font-size: 20px;
-    padding-top: 65px;
-    padding-left: 80px;
-}
-.p2{
-    font-size: 20px;
-    padding-top: 65px;
-    padding-left: 90px;
-}
-.head1{
-    height: 30px;
-    width: 300px;
-    border: 2px solid black;
-    text-align: center;
+     display: flex;
+     margin: auto;
+ }
+ .box31{
+     height: 200px;
+     width: 25%;
+     cursor: pointer;
+     
+ 
+ }
+ .box32{
+     height: 200px;
+     width: 25%;
+     cursor: pointer;
+     
+ 
+ }
+ .box33{
+     height: 200px;
+     width: 25%;
+     cursor: pointer;
+ 
+ }
+ .box34{
+     height: 200px;
+     width: 25%;
+     cursor: pointer;
+ 
+ }
+ #box35{
+     height: 450px;
+     width: 100%;
+     
+     display: flex;
+ }
+ .box36{
+     height: 450px;
+     width: 50%;
     
-}
-.head2{
-    height: 30px;
-    width: 300px;
-    border: 2px solid black;
-    text-align: center;
+ }
+ .box37{
+     height: 450px;
+     width: 50%;
     
-} 
-#box23{
-    height: 450px;
-    width: 100%;
-    
-    display: flex;
-    /* margin: auto; */
-    gap: 20px;
-    padding-left:250px;
-    padding-top: 90px;
-}
-.cart3{
-    height: 300px;
-    width: 250px;
+     background-image: url(./assets/dark-background-27006ykg7sblaci4.jpg);
+     background-size: contain;
+     color: #fff;
+     padding-left: 50px;
+ }
+ input{
+     height: 30px;
+     width: 250px;
+     border-radius: 5px;
+     background-color: transparent;
+     cursor: pointer;
    
-    background-color: #eef0f3;;
-}
-.cart4{
-    height: 300px;
-    width: 250px;
-   
-    background-color: #eef0f3;
-   
-}
-.cart5{
-    height: 300px;
-    width: 250px;
-   
-    background-color: #eef0f3;
-}
-.c1{
-    height: 15%;
-   
-}
-.c2{
-    height: 20%;
-    
-}
-.c3{
-    height: 50%;
-   
-    
-}
-.c4{
-    height: 15%;
-   
-    padding-left: 20px;
-}
-.inp4{
-    height: 35px;
-    width: 80%;
-    border-radius: 15px;
-    background-color: #1f71d0;
-    color: white;
-}
-.cart3:hover{
-    border-top: 2px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
-    border-color: black;
-    border-style: solid;
-}
-.cart4:hover{
-    border-top: 2px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
-    border-color: black;
-    border-style: solid;
-}
-.cart5:hover{
-    border-top: 2px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
-    border-color: black;
-    border-style: solid;
-}
-#box24{
-    height: 250px;
-    width: 60%;
-    
-    display: flex;
-    margin: auto;
-}
-.box25{
-    height: 250px;
-    width: 50%;
-   
-}
-.box26{
-    height: 250px;
-    width: 50%;
-   
-}
-#box27{
-    height: 250px;
-    width: 60%;
+ }
+ #inp5{
+     height: 30px;
+     width: 510px;
+     border-radius: 5px;
+     background-color: transparent;
+ }
+ #inp6{
+     height: 40px;
+     width: 100px;
+     background-color: #1f71d0;
+     color: white;
+     border-radius: 5px;
+ }
+ #box38{
+     height: 100px;
+     width: 100%;
+     border: 2px solid black;
+     background-color: rgb(77, 74, 74);
+     display: flex;
+ }
+ .box39{
+     height: 100px;
+     width: 50%;
+     padding-left: 200px;
      padding-top: 30px;
-    display: flex;
-    margin: auto;
-}
-.box28{
-    height: 250px;
-    width: 50%;
-   
-}
-.box29{
-    height: 250px;
-    width: 50%;
-   
-}
-#box30{
-    height: 200px;
-    width: 60%;
-   
-    display: flex;
-    margin: auto;
-}
-.box31{
-    height: 200px;
-    width: 25%;
-    
-
-}
-.box32{
-    height: 200px;
-    width: 25%;
-    
-
-}
-.box33{
-    height: 200px;
-    width: 25%;
-    
-
-}
-.box34{
-    height: 200px;
-    width: 25%;
-    
-
-}
-#box35{
-    height: 450px;
-    width: 100%;
-    
-    display: flex;
-}
-.box36{
-    height: 450px;
-    width: 50%;
-   
-}
-.box37{
-    height: 450px;
-    width: 50%;
-   
-    background-image: url(./assets/dark-background-27006ykg7sblaci4.jpg);
-    background-size: contain;
-    color: #fff;
-    padding-left: 50px;
-}
-input{
-    height: 30px;
-    width: 250px;
-    border-radius: 5px;
-    background-color: transparent;
-  
-}
-#inp5{
-    height: 30px;
-    width: 510px;
-    border-radius: 5px;
-    background-color: transparent;
-}
-#inp6{
-    height: 40px;
-    width: 100px;
-    background-color: #1f71d0;
-    color: white;
-    border-radius: 5px;
-}
-#box38{
-    height: 100px;
-    width: 100%;
-    border: 2px solid black;
-    background-color: rgb(77, 74, 74);
-    display: flex;
-}
-.box39{
-    height: 100px;
-    width: 50%;
-    padding-left: 200px;
-    padding-top: 30px;
-
-}
-.box40{
-    height: 100px;
-    width: 50%;
-    padding-left: 150px;
-    padding-top: 40px;
-}
+ 
+ }
+ .box40{
+     height: 100px;
+     width: 50%;
+     padding-left: 150px;
+     padding-top: 40px;
+ }
